@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="vendor/nouislider/distribute/jquery.nouislider.min.css" />
+    <link rel="stylesheet" href="vendor/nouislider/distribute/jquery.nouislider.pips.min.css" />
+    <link rel="stylesheet" href="css/demo.css"/>
+</head>
+<body>
+
+<section style="margin: 30px" ng-controller="sliderController">
+  <div ng-init="customOptions={pips: {values:6, density:4, decimals:0, postfix:'€'}, tooltip:{label:'Value: ', postfix:'€', tooltipClass:'slider-tooltip'}}"></div>
+  <input ng-model="values[0]" type="number" step="10" />
+  <input ng-model="values[1]" type="number" step="10" />
+
+  <!--Slider with pips and tooltip-->
+  <ez-slider ng-model="values" from="200" to="600" step="10" options="customOptions"></ez-slider>
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <!--Slider compiled dynamically-->
+  <div id="idSlider"></div>
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <!--Slider created by jQuery -->
+  <div id="slider-start"></div>
+
+</section>
+
+<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/angular/angular.js"></script>
+<script type="text/javascript" src="vendor/nouislider/distribute/jquery.nouislider.all.js"></script>
+<script type="text/javascript" src="vendor/ez-angular-nouislider/src/ez-angular-nouislider.js"></script>
+
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "demo-ez-angular-nouislider",
+  "version": "1.0",
+  "description": "Demo for ez-angular-nouislider.",
+  "license": "MIT",
+  "ignore": [
+    "vendor*"
+  ],
+  "dependencies": {
+    "ez-angular-nouislider": "eboukamza/ez-angular-nouislider"
+  }
+}
