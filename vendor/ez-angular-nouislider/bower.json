@@ -1,0 +1,19 @@
+{
+  "name": "ez-angular-nouislider",
+  "version": "1.0",
+  "description": "Custom directive for noUiSlider.",
+  "author": "https://github.com/eboukamza/ez-angular-nouislider/graphs/contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/eboukamza/ez-angular-nouislider",
+  "main": [
+    "src/ez-angular-nouislider.js"
+  ],
+  "ignore": [
+    "demo*",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0 <1.3.x",
+    "nouislider": "^7.0.10"
+  }
+}

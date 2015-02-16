@@ -1,0 +1,27 @@
+{
+  "name": "ez-angular-nouislider",
+  "description": "Custom directive for noUiSlider.",
+  "author": "https://github.com/eboukamza/ez-angular-nouislider/graphs/contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/eboukamza/ez-angular-nouislider",
+  "main": [
+    "src/ez-angular-nouislider.js"
+  ],
+  "ignore": [
+    "demo*",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0 <1.3.x",
+    "nouislider": "^7.0.10"
+  },
+  "_release": "569e7c355e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "569e7c355ec9206bd806d53c8a0080a2efb3598b"
+  },
+  "_source": "git://github.com/eboukamza/ez-angular-nouislider.git",
+  "_target": "*",
+  "_originalSource": "eboukamza/ez-angular-nouislider"
+}
